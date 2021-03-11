@@ -1,0 +1,17 @@
+{
+  "name": "spring-boot-sass-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss:build": "node-sass src/main/scss/index.scss > src/main/resources/static/index.css",
+    "scss:watch": "node-sass -w src/main/scss/index.scss > src/main/resources/static/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

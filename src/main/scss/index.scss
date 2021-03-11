@@ -1,0 +1,19 @@
+$max-width: 960px;
+
+body {
+  font-family: sans-serif;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 3em;
+  }
+
+  p {
+    padding-bottom: 3em;
+  }
+}
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+}
