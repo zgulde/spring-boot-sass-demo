@@ -10,6 +10,10 @@ Demo project incorporating sass/scss in a spring boot application.
    
 2. Add `node-sass` (or whatever you prefer)
 
+    ```
+    npm install node-sass
+    ```
+
 3. Make a scss source file in `src/main/scss/index.scss`
    
 4. Configure a build command to output to `src/main/resources/static`
@@ -50,4 +54,4 @@ Demo project incorporating sass/scss in a spring boot application.
 
 We are assuming you are committing the css artifacts, i.e. you `git add` and `git commit` `src/main/resources/static/index.css`.
 
-A more complex way to do this might be to build the css as part of the spring boot application's build process using something like the [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin).
+A more complex way to do this might be to ignore the build css and build the css as part of the spring boot application's build process using something like the [frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin).
